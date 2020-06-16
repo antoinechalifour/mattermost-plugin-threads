@@ -2,7 +2,7 @@
     "id": "dev.antoinechalifour.mattermost-plugin-threads",
     "name": "Threads Plugins",
     "description": "This plugin hides threads from the main posts list.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "min_server_version": "5.12.0",
     "webapp": {
         "bundle_path": "webapp/dist/main.js"

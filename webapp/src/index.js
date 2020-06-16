@@ -10,8 +10,7 @@ export default class Plugin {
 
         // Insert CSS Rule
         styleSheet.insertRule(`
-          #virtualizedPostListContent .same--root,
-           #virtualizedPostListContent .other--root{
+          #virtualizedPostListContent .post--comment {
             display: none !important;
           }
         `, styleSheet.cssRules.length);
