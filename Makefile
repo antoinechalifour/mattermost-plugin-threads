@@ -32,7 +32,7 @@ apply:
 
 ## Runs golangci-lint and eslint.
 .PHONY: check-style
-check-style: webapp/.npminstall golangci-lint
+check-style: webapp/.npminstall
 	@echo Checking for style guide compliance
 
 ifneq ($(HAS_WEBAPP),)
